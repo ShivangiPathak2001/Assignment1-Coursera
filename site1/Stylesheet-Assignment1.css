@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box; 
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 75px;
+}
+.box{
+    background-color: brown;
+}
+.design{
+    
+    text-align: right;
+    font-size: 25px;
+}
+.list{
+    text-align: center;
+   
+}
+@media(min-width: 992px){
+    .deks_layout{
+        width: 33%;
+        float: left;
+        padding: 10px;
+       
+       
+    }
+    
+}
+@media(min-width:768px) and (max-width:991px){
+    .tab_layout{
+        width: 50%;
+        float:left;
+
+    }
+
+}
